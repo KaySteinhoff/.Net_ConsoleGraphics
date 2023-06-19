@@ -63,4 +63,7 @@ They all do pretty much what they say however be aware that as soon as you call 
 |Function|Desciption|Parameters (in order)|
 |---|---|---|
 |DrawImage|Draws an Image to the given location with the given size. All values are in pixel coordinates.|Image img, Point location, Size dimensions|
-|DrawLine|Draws a line from p1 to p2 using the specified color|Point p1, Point p2, Color color|
+|DrawLine|Draws a line from p1 to p2 using the specified color.|Point p1, Point p2, Color color|
+|DrawTriangle|Draws a triangle in the configuration p1->p2->p3->p1 using the given color. Optionaly fills it using that color.|Point p1, Point p2, Point p3, Color color, bool fill(default true)|
+|DrawEllipse|Draws an ellipse at the given location with the given width and height using the given color. Optionaly fills it using that color.|Point location, int width, int height, Color color, bool fill(default true)|
+|DrawCircle|Draws a circle at the given location with the given radius using the given color. Optionaly fills it using tha color.|Point location, int radius, Color color, bool fill(default true)|
