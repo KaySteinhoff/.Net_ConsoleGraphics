@@ -9,7 +9,7 @@ That's about it idk why I made it but here it is.
 
 To use it simply create an instance of WindowHandler and it will automatically setup the Console window to be used.
 
-´´´cs
+```cs
 using ConsoleGraphics;
 
 namespace Example
@@ -27,7 +27,7 @@ namespace Example
         }
     }
 }
-´´´
+```
 
 Now you have it all set-up to be used!
 
@@ -35,10 +35,10 @@ Now you have it all set-up to be used!
 
 The WindowHandler constructor takes in three arguments: Width, Height and ClearColor of the managed context.
 
-´´´CS
+```cs
 public WindowHandler(int width, int height, System.Drawing.Color clearColor)
 {...
-´´´
+```
 
 ## Functions
 
