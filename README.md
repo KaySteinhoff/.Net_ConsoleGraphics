@@ -16,7 +16,6 @@ namespace Example
 {
     public class Program
     {
-        static bool running = true;
 
         static void Main()
         {
